@@ -85,3 +85,38 @@ footer {
 	padding: 2em;
 	font-size: 1.5em;
 }
+
+
+
+
+
+
+
+
+
+/*Estilos galeria*/
+			#principal, #preview {
+				display: inline-block;
+				text-align: center;
+			}
+			#principal {
+				width: 63%;
+				vertical-align: top;
+				margin-right: 8%;
+			}
+			#preview {
+				width: 20%;
+			}
+			#preview img, #principal img {
+				border: solid 4px #E95644;
+				padding: 1em;
+				max-width: 100%;
+				border-radius: 15px;
+			}
+			#galeria {
+				padding: 2em;
+			}
+			nav ul li a {
+				color: white;
+				text-decoration: none;
+			}
